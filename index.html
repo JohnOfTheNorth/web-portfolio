@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- header of the webpage -->
+      <h1>Web Portfolio</h1>
+      <nav>
+        <!-- image of logo in the nav-->
+        <img src="benjamin-moore.png" alt="Benjamin-Moore-logo" />
+        <!-- allows nav buttons to navigate to the correct parts of the webpage-->
+        <a href="#Intro">Intro |</a>
+        <a href="#About-Me">About Me |</a>
+        <a href="#Contact-Info">Contact Info</a>
+      </nav>
+    </header>
+    <!-- Horizontal Ruler-->
+    <hr />
+    <!-- Semantic code-->
+    <main>
+      <article>
+        <header><h2 id="Intro">Intro</h2></header>
+        <!--Introduction paragraph-->
+        <p>
+          Hello! My name is Jonathan and I currently reside in Fair Lawn, New
+          Jersey! I currently work in a Benjamin Moore paint shop and hope to
+          compelete the Thinkful Software Engineering bootcamp for the following
+          reasons:
+        </p>
+        <!-- creats a class id named list, allows for easier css editing-->
+        <ul class="list">
+          <!-- Unordered List <ul> -->
+          <!-- <li> creates bullet points of the lines below-->
+          <li>
+            Coding has become a passion of mine and I would hope to pursue a
+            career in the field!
+          </li>
+          <li>To provide financial stability to my family!</li>
+          <li>Allowing the oppurtunity to achieve other life goals as well!</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <!-- Allows link in webpage to send user to this point in the page -->
+        <header><h2 id="About-Me">About Me</h2></header>
+        <!-- About me section -->
+        <p>
+          After graduating high school, I decided to take time off from going to
+          college to try to understand what I would like to achieve in life. It
+          took longer than expected to choose a career path that stood out to
+          me. Initially, I wanted to go to college to become a veterinarian,
+          however, in my first semester back in college, after nearly 5 years
+          hiatus I took an intro to python course. Afterwards, I realized the
+          beauty of coding and it's power of creation. The creation of a fully
+          functioning program from nothing was an extremely satisfying feeling.
+          It was then that I came to the decision to try and pursue a career in
+          this field! As I was completing my Associate's Degree in Bergen
+          Community College, a few of my friends had informed me about the
+          Thinkful Software Engineeing bootcamp, and the services it provided.
+          Although it has been a difficult journey to this point I am glad that
+          I found a career path that I enjoy working towards, while working with
+          others!
+        </p>
+        <p>Other interests I have:</p>
+        <ul class="list">
+          <li>Learning Brazilian Jiu-Jitsu</li>
+          <li>Learning Muay Thai (kickboxing)</li>
+          <li>Traveling around the country</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <header><h2>Contact-Info</h2></header>
+        <p>This is my Contact Info!</p>
+      </article>
+
+      <div id="Contact-Info">
+        <!-- Ordered List-->
+        <ol class="list">
+          <li>
+            <!-- Allows for hyperlink to be linked to my linkdin-->
+            <a href="https://linkedin.com/in/jonathan-rodriguez-920840191"
+              >LinkedIn</a
+            >
+          </li>
+          <!-- Allows for hyperlink to be linked to my GitHub-->
+          <li><a href="https://github.com/JohnOfTheNorth">GitHub</a></li>
+          <!-- Allows for hyperlink to be linked to my email-->
+          <li><a href="mailto:jonrodriguez1396@gmail.com">Email</a></li>
+        </ol>
+      </div>
+    </main>
+    <!-- Footer section of my webpage -->
+    <footer>©Jonathan Rodriguez (2022)</footer>
+  </body>
+</html>

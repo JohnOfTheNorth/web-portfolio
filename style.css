@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+/*sets the background of the webpage*/
+body {
+  margin: 0;
+  background-color: rgb(36, 36, 36);
+}
+/*styles the text of theentire webpage*/
+html,
+h1,
+h2,
+p {
+  font-family: "Franklin Gothic Medium", Arial;
+  color: rgb(146, 197, 245);
+  text-align: center;
+}
+/*aligns the navigartion bar*/
+nav {
+  text-align: left;
+  margin: 20px;
+}
+/*aligns the lists to center*/
+.list {
+  text-align: justify;
+  display: inline-block;
+  list-style-position: inside;
+  line-height: 250%;
+}
+
+main > article > p {
+  margin: auto;
+  padding-bottom: 32px;
+  width: 600px;
+  line-height: 25px;
+}
+/*creates a line to help section the webpage*/
+hr {
+  height: 4px;
+  border: 2px solid rgb(53, 86, 233);
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+/*changes image size and borders*/
+img {
+  vertical-align: middle;
+  height: 30px;
+  border-radius: 32px;
+}
+/*sets the size of the footer*/
+footer {
+  font-size: 13px;
+}
+/*psuedo-classes*/
+a:link {
+  color: rgb(102, 114, 124);
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: pink;
+}
